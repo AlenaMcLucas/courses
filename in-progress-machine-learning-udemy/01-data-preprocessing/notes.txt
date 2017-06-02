@@ -1,0 +1,14 @@
+Spyder/R Studio notes
+
+- spyder: select code and press command+control+enter to run
+- r: select code a press control+enter to run
+- r: don't need to import libraries (unless installing packages once)
+- spyder: don’t need to select working directory because it’s automatically the directory you are in
+- r: must set working directory in file explorer
+
+- spyder: click on 'variable explorer' and click dataset name to see spreadsheet of data + change it's float formatting by clicking 'format'
+- doesn't matter in either language if you use " or '
+- Python: index starts at 0; R: index starts at 1
+
+- spyder: command+i shows parameters a method/class takes
+- r: f1 to see parameters
