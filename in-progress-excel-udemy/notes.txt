@@ -1,0 +1,257 @@
+Course Notes
+
+- Excel Fundamentals -
+
+The Quick Access Toolbar lives in the top right-hand corner of the screen. To customize it, click the button that looks like eject. Or, right-click anything on the ribbon and click Add to Quick Access Toolbar (only for Windows).
+
+A workbook contains up to 255 sheets. Each sheet has columns and rows. A sheet can have over a million rows and several thousand columns.
+
+Shortcut: move to beginning of the sheet (A1) = CONTROL + FN + LEFT ARROW
+
+The fastest two ways to save are the save button in the Quick Access Toolbar or COMMAND + S.
+
+Here are mac keyboard shortcuts: https://support.office.com/en-us/article/Keyboard-shortcuts-in-Excel-2016-for-Mac-acf5419e-1f87-444d-962f-4e951a658ccd?ui=en-US&rs=en-US&ad=US.
+
+- Entering and Editing Text and Formulas -
+
+Typically, type a title into A1.
+
+The ENTER key takes you down one cell. The TAB key takes you one cell to the right.
+
+Notice that text automatically aligns left, and numeric values (including dates) align right. This helps to keep the numeric data looking clean because it can align decimals all underneath one another.
+
+Home > Section 5 has a selection box, and if you click the down arrow there are formatting options along with 'More Number Formats....'
+
+A cell reference/address is the combination of built-in column letters (A, B, C,...) and built-in row numbers (1, 2, 3,...).
+
+Start every formula with an equals sign '='.
+
+Excel has all the typical operators, note exponents are '^'. Calculations respect PEMDAS.
+
+If you write a formula, it looks relatively references cells. So, you can copy a formula and paste it into the same spot a row below, it will shift all the rows' numbers down one.
+
+If you want to include an absolute reference to a cell, you must put a '$' in front of its letter and number, i.e. $E$10.
+
+- Working with Bacid Excel Functions -
+
+This is the formatting of a function in excel.
+$ =FUNCTION_NAME(ARGUMENTS)
+
+The Formulas tab houses all functions. For a list of functions regarless of data type/use, click 'Insert Function' in Section 1. In Section 2, functions are sorted by use and data type. 
+
+Add a range of cells together (the most common function used).
+$ =SUM(range)
+
+Find the minimum value in a range.
+$ =MIN(range)
+
+Find the maximum value in a range.
+$ =MAX(range)
+
+Find the average value in a range.
+$ =AVERAGE(range)
+
+Count the number of cells in a range that contain numbers.
+$ =COUNT(range)
+
+In Formulas > Section 2 > AutoSum can often detect what you want to sum without you having to write any code. Excel by defualt looks up for 2+ numbers, so if it gets it wrong you can select the right range and correct it.
+
+Use autofill to copy a formula the fastest way by left-clicking and dragging the bottom right box in the current cell across the cells you want to contain the formula.
+
+- Modifying an Excel Worksheet -
+
+To copy values in a cell or range, select it/them and hit CONTROL-C. CONTROL-V is paste. CONTROL-X is cut. Copy+paste+cut buttons are in the Home tab as well.
+
+CONTROL+SHIFT++ adds a column to the left. If you select multiple columns, hit CONTROL+SHIFT++ and there will be new columns in their place, shifting the current columns to the right. The same applies to rows. CONTROL+SHIFT+- deletes selected columns or rows.
+
+If you select multiple columns or rows and adjust the width, they will all be equal widths. Autofit the column width by seleting a range and double-clicking between any two columns. This will set a different width for every column depending on its longest value.
+
+To hide a column, row, or range, select it and right-click. Click "Hide". To get the column/row/range back, highlight the surrounding area and right-click to select "Unhide."
+
+When you delete a worksheet, it's gone and cannot be undone. Right-click the sheet and select "Delete." If the worksheet has content, it will prompt you to accept the deletion.
+
+Rename a worksheet by double-clicking the worksheets name. Alternatively, right-click it and select 'Rename.'
+
+Click and drag to reorder worksheets.
+
+To copy a worksheet, right-click and select "Move or Copy...." ??? There is supposed to be a command, but idk for MAC.
+
+- Formatting Data in an Excel Worksheet -
+
+Format text font, color, size, bold, italic, underline and background color with Home > Section 2. Use formatting to create separation in content.
+
+Home > Section 2 is also where you can create borders on cells. There are a large number of color and style combinations.
+
+Add a currency style in Home > Section 5 after selecting a range by clicking '$.' Having too many currency symbols can be too busy, so an alternative is to either add the currency in the column name, i.e. 'Total Revenue ($),' or have the first and last rows label the column's data as a currency.
+
+Select the range and in Home > Section 5, click '%' to select percentage style. Use the decimal arrows button to decide to what place you want to round. These decimal arrows also work for decimal values.
+
+Format painter copies+pastes formatting only. Select the cell whose format you want to copy, then click the '[paintbrush] Format' button in Home > Section 1. Click all the cells that you want to paste the formatting into.
+
+In Home > Section 8, click '[eraser] Clear' to clear all the formatting in a cell.
+
+If you having formatting you want to keep uniform throughout a document, use Styles to apply universal formatting to your document. If you modify the Style, then all the cells with that Style will be changed automatically. Select a cell with the formatting you want, and then in Home > Section 5, click 'Cell Styles.' Click 'New Cell Style...' and name it. Then, select all the cells you want to have that Style and click your new Style under 'Cell Styles.' To modify the style, right-click it and select 'Modify....' Click 'Format' and make your changes.
+
+To merge cells and bring their contents to the center in one click, select the range and under Home > Section 4, click 'Merge & Center.'
+
+Select the cells you want to be conditionally formatted, then in Home > Section 6 click 'Conditional Formatting.' Choose from a pre-formatted rule or create your own with 'New Rule....'
+
+- Inserting Images and Shapes into an Excel Worksheet -
+
+Don't go overboard with images and shapes because it gets busy.
+
+In Insert > Section 2, 'Pictures' will let you find locally stored images. An image can be resized and dragged.
+
+In Insert > Section 2, click 'Shapes' to add a shape from the drop down. Click and drag over the area you want to create the shape on. When you click on the shape, the 'Shape Format' opens and use it format the shape's fill color, outline format, and outline color.
+
+In Insert > Section 2 click 'SmartArt' to use out-of-the-box complex shapes and diagrams. Note that these are often formatted like bullets, and you can 'Promote' or 'Demote' each point. Two new tabs will pop up, one that reads 'SmartArt Design' for small tweaks and 'Format' for detailed changes.
+
+- Creating Basic Charts in Excel -
+
+Select the range, then Insert > Section 4 and select a chart. The 'Chart Design' and 'Format' tabs will appear.
+
+Select column and row names if you want them in the chart. You can click into any text and edit it though.
+
+To add chart elements, in Chart Design > Section 1 click 'Add Chart Element.'
+
+To change the data source for the chart, select the chart and drag the range selection that pops up.
+
+Ues the 'Format' tab, select the chart area you want to edit in Section 1, and edit away. You can still use the Home tab to format certain elements.
+
+In Chart Design > Section 5 click 'Move Chart' to move the chart to another sheet. If you put it on its own sheet, or on a sheet with multiple charts, it's a clean way to display visualizations.
+
+When using pie charts, be aware that you may need to go to Chart Design > Section 3 and click 'Switch Row/Column' because it's only suited for a single row or column of data.
+
+- Printing an Excel Worksheet -
+
+Printing options are completely different in 2016, so this is irrelevant.
+
+For specifications, go to Page Layout > Section 2 and click 'Page Setup.' Alternatively, to see each printable page go to View > Section 1 and click 'Page Layout' and format as desired. From here, you can also 'Click to add footer' or 'Click to add header.' When you do this, the 'Header & Footer' tab opens to help you format page numbers, current time/date, file path, file name, sheet name, etc.
+
+You can also select a range, File > Print Area > Save Print Area to only print that specific range. Don't forget to clear it after you print.
+
+- Working with Excel Templates -
+
+You can load preexisting templates in the start window.
+
+To create a custom template, the click File > Save as Template.... The file is now an Excel Template (.xltx) and is staved in a special Templates folder. If you do this, a new template can be opened from the start window or under File > New from Template....
+
+- Working with an Excel List -
+
+Excel recognizes headers based on you formatting that row differently. They will be important to sorting, filtering, pivot tables, etc. These columns are also called lists.
+
+If you have an empty row, excel reads this as two separate lists. Make sure you don't have any empty rows or columns in your list.
+
+Select the column you want to sort and then in Data > Section 3 click A->Z or Z->A for quick descending or ascending sorting (single-level sorting). Selet all of the columns and click 'Sort' for multi-level sorting. Select the column you want and how you want it to be sorted. You can add multiple levels by clicking the '+.' This will cause the list to be sorted, and wherever there are duplicates the second level will be sorted. You can sort up to 64 levels.
+
+To do a more complicated/custom sort, in 'Sort' you can sort by a custom list: days of the week and months are already in Excel. You can create your own list too.
+
+In Data > Section 4 click 'Filter' to have each column have a filter option so you can sort, filter the text (greater than, equals, contains, etc), or select some text.
+
+Create a subtotal by suming a numeric column for each category (i.e. total sales for each ice cream flavor by price). Sort your list by the category first. In Data > Section 6 click 'Subtotal' and select the column/category (ice cream flavor). Select your numeric column (sales), and it will create new rows that contain subtotals and a final row with a grand total. It also turn each category into a group. You can also create an average (and likely other summary statistics).
+
+In Home > Section 6 click 'Format as Table' and pick a format or create a new table style. Select the range for the table. This will help keep the formatting even when you sort, filter, etc. Then, your calculations should be dynamic based on the filters and sorting you apply.
+
+To identify duplicate records/rows, look at the unique column (i.e. id column). Use conditional formatting in Home > Section 6 and click 'Conditional Formatting' > Highlight Cell Rules > Duplicate Values. With the prefilled information, you can identify the duplicates.
+
+To remove duplicats if you have not formatted your data as a table, go to Data > Seciton 5 and click 'Remove Duplicates.' If you have, go to Table > Section 2 and click 'Remove Duplicates.' They are otherwise exactly the same. You must identify which columns to look for a duplicate in. For instance, if all columns are checked the rows must be identical for a duplicate to be deleted.
+
+COMMAND+SHIFT+DOWN selects all rows below with values until it runs into a row without values. Same with CONTROL+SHIFT+RIGHT.
+
+- Excel List Functions -
+
+Dsum is database sum. This allows a condition to be added to summing.
+
+$ =DSUM(database, field, criteria)
+
+Database is the table/list you are working with. Field (i.e. total expenses) is the name of the column you are summing on. Create a small table that has the column name of the category (category) you want to sum, then below it the actual category (supplies).
+
+The following list functions take the same arguments:
+$ =DAVERAGE(database, field, criteria)
+$ =DCOUNT(database, field, criteria)
+
+$ =SUBTOTAL(function_num, ref1, ref2)
+
+Pass a number to function_num that corresponds to a function (sum, count, etc). Use the ref arguments to refer to needed ranges. If you filter, a subtotal sum will dynamically change to reflect the filtered results.
+
+- Excel Data Validation -
+
+When you collect information, be sure to include data validation to ensure data is as clean as possible.
+
+Select range you want to apply data validation to. Go to Data > Section 5 and click 'Data Validation.' To offer options, allow 'List' and comma separate each value. Alternatively, you can create a list in a column and select its range. (This can be a benefit to easily insert a new row with a new value for the drop-down.) A drop down is available for each selected cell. If you type in a wrong value you get an error. To see if old data is invalid, under 'Data Validation' > Circle Invalid Data.
+
+Customize the validation error under Data > Section 5 and click 'Data Validation.' On the Error Alert tab and write your own error by filling out the title and error message. The best information is to either include all valid values or how to locate the drop-down. You can also decide for it to stop input all together, issue a warning or just display information.
+
+- Importing and Exporting Data -
+
+File > Import allows you to select the kind of file you want to import. Delimited files separate values with commas, tabs, etc. Indicate what is separating the values. Then, if you don't select a column data format Excel will guess. You can also skip columns. Lastly, decide what sheet to import it onto.
+
+Data > Section 1 From Access will import data from Access. Not available on mac. You can decide what tables you want to pull data from.
+
+To Export, File > Save As and select .csv, .txt, etc and specify if you want a delimited or fixed with. You must export one sheet at a time.
+
+- Excel Pivot Tables -
+
+Pivot tables have four sections: row labels, column labels, values, and filters. It seems that row and column labels are categorical, and values are numeric and some function is applied to them.
+
+Go to Insert > Section 1 and click 'Pivot Table.' Select all of the data and place the pivot table. Use the Pivot Table Builder to drag the columns into one of four of the sections. In values, you can select the mathmatical calculation you want it to make. Or, under 'Show data as' you can change it to things like % difference from month to (previous). This is essentially percent change.
+
+Create a group in your pivot table by selecting the range of rows and going to PivotTable Analyze > Section 4 and clicking 'Group Selection.' For example, you would do this to group months into quarters.
+
+The best way to format the values in your pivot table is to go into the pivot table builder, click the value you want to format, then click 'Number' and format.
+
+Use the Design tab to format the pivot table itself.
+
+If you double-click a value, you'll drill down into the details of the number. A new sheet is made with all of the rows that are relevant to that datapoint.
+
+In PivotTable Analyze there is a PivotChart option, which is dynamic with the pivot table. Mac does not have this, so they will have to be created using standard charts. Seems like they are stille pretty dynamic.
+
+Filter based on column labels or row labels using the drop-down. Or, filter on another variable by adding that variable to the filter section. This is likely to be categorical, but not necessarily.
+
+Note we can have multiple fields in any section to segment further.
+
+In PivotTable Analyze > Section 5 click 'Insert Slicer.' A slicer creates a clean interface to filter on. You can select multiple categories at once, and have multiple slicers at once. This does not seem to affect my chart whereas a filter does.
+
+- Working with Excel's PowerPivot Tools -
+
+If two tables share a unique id/key, we can create a relationship between these two sets of data and then create a PowerPivot Table. However, this was removed from 2016 and requires the professional edition. Will not take notes for this reason.
+
+- Working with Large Sets of Excel Data -
+
+Click in A2 because that is where the header is above it, then go to View > Section 4 and click 'Unfreeze Panes' to freeze the header. There are also options for freezing the column or both.
+
+Remember under Data > Section  clicking 'Group' will help group and ungroup rows and columns.
+
+In print setup, you can select rows or columns to repeat at the top or left of the printed document. Use View > Section 1 'Page Break Preview' to see where the page breaks are. Print Setup can also let you decide which parts are printed in what order.
+
+To reference other sheets, use this format (3D formula):
+$ ='Sheet1'!B4
+
+Another way to do this for identical sheets is to go to Data > Section 6 and click 'Consolidate.' Then, set each reference to have the same row or column labels and paste this into a new table.
+
+- Working with Excel's Conditional Functions -
+
+Select cells you want to name, then look to the left of the formula area into the name bar. Note you cannot have spaces in the name. Use that name in a formula that require a range.
+
+If something is true, print one thing. If false, print another.
+
+$ =IF(condition, value_if_true, value_if_false)
+
+In the condition, you can include up to 255 conditions to test by inputing the following:
+$ ...and(condition1, condition2,...)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

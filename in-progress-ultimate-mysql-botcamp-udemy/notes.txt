@@ -1,0 +1,81 @@
+Course Notes
+
+- Introduction -
+
+A database is a structured set of computerized sata with an accessible interface. In a relational database, they are formatted into a bunch of tables.
+
+You app -> DBMS -> Database
+
+SQL (Structured Query Language) is the language we use to interact with our relational database(s).
+
+Once you learn SQL, it's pretty eady to switch to another DB that uses SQL. What makes databases (DBMS) unique are the features they offer, not the language.
+
+- Creating Databases -
+
+Capitalization is not mandatory, but most people use it for readibility to see what is the SQL language and what is a name. Snake or camel case for names are fine, just be consistent.
+
+Return all the databases on the server.
+
+$ show databases;
+
+Create a new database.
+
+$ CREATE DATABASE <db_name>;
+
+Drop a database. But be careful, this is permanent.
+
+$ DROP DATABASE <db_name>;
+
+Select the database to write queries for.
+
+$ USE <db_name>;
+
+Return the currently in use database.
+
+$ SELECT database();
+
+Note that if you are using a database and drop it, this will return null.
+
+SQL doesn't let you mix datatypes in columns. There was a datatype intro, repetitive.
+
+Set a limit to the number of characters with VARCHAR(100). We can also use INT.
+
+Create a table.
+
+$ CREATE TABLE <tb_name>
+$   (
+$     col_name data_type,
+$     col_name data_type
+$     ...
+$   );
+
+Show tables the in database.
+
+$ SHOW TABLES;
+
+Show columns from a specific table.
+
+$ SHOW COLUMNS FROM <tb_name>.
+OR
+$ DESC <tb_name>;
+
+Drop a table, but beware that it's permanent!
+
+$ DROP TABLE <tb_name>;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
