@@ -1,0 +1,63 @@
+# My Command Line Cheat Sheet
+
+$ mkdir [new-name]
+$ cd [new-name]
+$ cd ..
+$ pwd
+
+$ echo "This is how to create a text file with these contents." >> hai.txt
+$ cat hai.txt
+// This prints the contents of the txt file
+
+# My Git Cheat Sheet
+
+
+# Introduction
+
+- two main types of source control options are centralized and decentralized / distributed
+- centralized requires conneciton to central server for most operations
+- distributed allows most operations to be local and a central server is not required
+
+- git is a distributed source / version control system, though it's not required to be decentralized
+- benefits of git include:
+  - version control
+  - massively scalable, very fast
+  - open source
+  - most operations are local
+  - active community, most popular DVCS / VCS
+
+- repository contains files, history, config managed by git
+- three local states of git:
+  - working directory - local copy, also contains the repository aka .git folder
+  - staging area - pre-commit holding area
+  - commit - .git repository (history)
+- remote repository is where you push your local working directory to
+
+# Git Quick Start
+
+- git configurations on a new machine:
+  $ git config --global user.name "Alena McLucas"
+  $ git config --global user.email "alenamclucas@gmail.com"
+  $ git config --global --list
+
+- create a new remote git repository (github, bitbucket):
+  - write repository name, no capitals or spaces
+  - write a short description
+  - initialize a README, which will include the repository name and description in the file
+
+- clone new repository locally:
+  - copy clone HTTPS URL to clipboard
+  $ git clone [paste clone URL]
+
+$ git status
+// Tells us where each file in our working directory is:
+  // Untracked means a file is on our working directory but not in our repository / .git folder yet
+  // New files means the file is now in the staging 
+  // Your branch is ahead of master means there are committed changes not pushed to the remote repository
+  // working directory clean means if there are no discrepancies between the working directory and .git folder
+
+$ git add .
+// Adds all of the new files in the working directory, can also replace the . with the new file name(s)
+
+
+
