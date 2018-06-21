@@ -1,16 +1,41 @@
 # My Command Line Cheat Sheet
 
 $ mkdir [new-name]
+$ mkdir -p [new-name]/[new-name]
+
 $ cd [new-name]
 $ cd ..
 $ pwd
+$ ls
+$ ls -a
+// show . folders
+$ ls -l
+// displays files in list view
+
+$ rm -fr [file-name]
+// removes file
 
 $ echo "This is how to create a text file with these contents." >> hai.txt
 $ cat hai.txt
 // This prints the contents of the txt file
 
+$ unzip [~/Downloads/file-name.zip]
+
+$ mv [old-file-name] [new-file-name]
+// changes a file's name
+
+~ is your user folder in path name
+
 # My Git Cheat Sheet
 
+$ git status
+$ git add .
+$ git commit -m "Hai"
+$ git pull origin master
+$ git push origin master
+
+$ git commit -am "[Text]"
+$ git ls-files
 
 # Introduction
 
@@ -57,7 +82,62 @@ $ git status
   // working directory clean means if there are no discrepancies between the working directory and .git folder
 
 $ git add .
-// Adds all of the new files in the working directory, can also replace the . with the new file name(s)
+// Adds all of the new changes in the working directory, can also replace the . with the new file name(s)
+
+$ git commit -m "Text about the committed code"
+// Adds all of the changes in the staging area to the local .git folder with the text message
+
+$ git push origin master
+// origin refers to the github copy of our repository
+// master refers to the default and only branch in our repository
+
+# Text Editor Installation
+
+- refer back to here to set up text editor, open from command line, etc
+
+# Basic Git Commands
+
+## Starting with a fresh project locally or adding git to an existing project (init)
+
+$ git init [new-name]
+// initialize a new repository, creates new folder
+
+## Join an existing remote project (clone)
+
+- fork a remote repository into your own personal remote repository
+
+- clone new repository locally:
+  - copy clone HTTPS URL to clipboard
+  $ git clone [paste clone URL]
+
+## Basic Git Workflow (add, commit, pull & push)
+
+$ git pull origin master
+// updates any changes from remote repository to local repository, should always do a pull before a push when working on a team
+
+## Tracked Files
+
+$ git commit -am "[Text]"
+// Adds and commits all changes at the same time with the message
+// This only works for tracked files, i.e. files that have already been in the .git folder or staging area
+
+$ git ls-files
+// Returns list of files tracked in current repository
+
+## Editing Files
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
